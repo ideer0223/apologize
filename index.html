@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35,7 +35,7 @@
                 <div class="scrollable-div">
                     <h3>To:鹿姐</h3>
                     <hr>
-                    <p>展信舒颜 </p>
+                    <p>展信佳 </p>
                     <p>时方十二月</p>
                     <p>上河入冬</p>
                     <p>闲坐车内，感叹时光荏苒。</p>
@@ -44,49 +44,51 @@
                     <p>又无气宇轩昂之容颜，</p>
                     <p>何德何能让姑娘为我停留驻足不前呢。</p>
 
+                    <hr>
+                    <p>但望姑娘顾怜，阅吾书函</p>
                     <p>近日，余恒自省。</p>
-                    <p>自初日夜不欢而散始，</p>
-                    <p>至次夜闻汝于电话中之言辞。</p>
+                    <p>从第一日晚上不欢而散始，</p>
+                    <p>到第二日晚你电话里的言辞。</p>
 
-                    <p>然反观己之反应与应答，</p>
+                    <p>而反观我自己的反应和回答，</p>
                     <p>面皮薄，稚气未脱。</p>
-                    <p>不能承汝之意见，</p>
-                    <p>敏而易于过度解读汝意，</p>
+                    <p>接不住你的意见，</p>
+                    <p>敏感且容易过度解读你的意思，</p>
                     <p>实甚幼稚，毫无担当，</p>
-                    <p>绝非吾此岁应有之态，</p>
+                    <p>完全不应该是我这个年纪该有的反应，</p>
                     <p>自觉如巨婴焉。</p>
 
-                    <p>静心思之，亦明汝之忧，</p>
-                    <p>且能感汝之缺乏安全感。</p>
+                    <p>静心思之，我也明白你的担忧，</p>
+                    <p>且能感受到你缺乏安全感。</p>
                     <p>无论物质与精神，</p>
-                    <p>余似未尝予汝足之安全感。</p>
+                    <p>我好像从未给过你足够的安全感。</p>
 
-                    <p>物质诚为硬伤，</p>
-                    <p>余不能保汝锦衣玉食、无忧之生活，</p>
-                    <p>然余可保，有我刘灿在，</p>
-                    <p>必不使汝冻馁丝毫，</p>
-                    <p>亦绝不令汝沾阳春水。</p>
+                    <p>不否认目前，目前物质上是硬伤</p>
+                    <p>我无法保证给你锦衣玉食、无忧无虑的生活，</p>
+                    <p>但我可以保证 有我刘灿在 ，</p>
+                    <p>不会冻着饿着你丝毫，</p>
+                    <p>也绝不会让你去沾阳春水。</p>
                     <p>纵天塌，只要余未死，</p>
-                    <p>此天余拼死命亦为汝顶之。</p>
+                    <p>这天我拼了命也会给你顶着。</p>
 
-                    <p>虽当下诸多事，</p>
-                    <p>无论关爱照顾汝、</p>
+                    <p>虽然当前很多事情，</p>
+                    <p>不管是对你的关爱和照顾、</p>
                     <p>操持家务、个人穿搭等，</p>
-                    <p>余所为实不尽人意，</p>
+                    <p>我做的确实不尽如人意，</p>
                     <p>然此亦示余尚能进，</p>
-                    <p>可变得更佳。</p>
+                    <p>那也说明我还能进步 能变得更好。</p>
 
-                    <p>昔余常以为以己之方式，</p>
+                    <p>以前我一直觉得用自己的方式，</p>
                     <p>对一人好即可，</p>
-                    <p>然今似渐悟，</p>
-                    <p>似当以对方之方式爱对方。</p>
+                    <p>但是我好像慢慢明白，</p>
+                    <p>似乎应该用对方的方式去爱对方 。</p>
 
-                    <p>双鱼乃浪漫之星座，</p>
-                    <p>而金牛则为极端。</p>
-                    <p>星座非余之挡箭牌，</p>
-                    <p>余不确定能否做到，</p>
-                    <p>然余欲为一浪漫之人，</p>
-                    <p>一为汝而浪漫之人。</p>
+                    <p>双鱼是个浪漫的星座，</p>
+                    <p>而金牛却是个极端。</p>
+                    <p>星座不是我的挡箭牌，</p>
+                    <p>我不确定我能否做到 ，</p>
+                    <p>但我想变成一个浪漫的人，</p>
+                    <p>一个为你而浪漫的人。</p>
 
                     <p>姑娘啊</p>
                     <p>你可曾知，我数次提笔恐词不达意成笑谈，</p>
@@ -117,18 +119,18 @@
         var cancel = document.getElementById('cancel')
         envelope.onclick = function () {
             open()
-
-            if (localStorage.getItem('isok') == 'false' || localStorage.getItem('isok') == 'true') {
-                if (localStorage.getItem('isok') == 'false') {
-                    hint('拒绝过了')
-                } else {
-                    hint('主人已经收到了您的爱意~')
-                }
-            } else {
-                setTimeout(() => {
+            setTimeout(() => {
                     document.querySelector('.wrap_books').classList.remove('removesDispaly')
                 }, 2000)
-            }
+            // if (localStorage.getItem('isok') == 'false' || localStorage.getItem('isok') == 'true') {
+            //     if (localStorage.getItem('isok') == 'false') {
+            //         hint('原谅我吧，我会努力的~')
+            //     } else {
+            //         hint('主人已经收到了您的爱意~')
+            //     }
+            // } else {
+                
+            // }
         }
         function open() {
             envelope.classList.add("open")
@@ -173,7 +175,7 @@
             hint('对方已经收到你的心意~')
         }
         cancel.onclick = function () {
-            hint('来日方长，江湖再见~')
+            hint('原谅我吧，我会努力的~')
             localStorage.setItem('isok', false)
             document.querySelector('.love_wrap').remove()
             document.querySelector('.wrap_books').classList.add('removesDispaly')
